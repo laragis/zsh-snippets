@@ -45,6 +45,9 @@ alias dru="docker run -ti --rm ubuntu /bin/bash"
 alias drc="docker run -ti --rm laravelsail/php82-composer /bin/bash"
 alias ws="docker compose exec --user=laradock workspace bash"
 
+# Ansible
+alias a="ansible"
+alias ap="ansible-playbook"
 
 # Vagrant
 alias v="vagrant"
