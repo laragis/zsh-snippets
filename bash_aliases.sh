@@ -22,6 +22,15 @@ alias ea="vi ~/bash_aliases.sh"
 alias bat="batcat"
 alias ll="exa -l"
 
+# Folders
+alias test="cd ~/VNTT/TEST"
+alias project="cd ~/VNTT/PROJECT"
+alias doc="cd ~/VNTT/DOC"
+alias server="cd ~/VNTT/SERVER"
+
+alias lrs="cd ~/VNTT/SERVER/laraserver"
+alias lrd="cd ~/VNTT/DOC/laradocs"
+
 
 # Docker
 alias dc="docker compose"
@@ -34,8 +43,13 @@ alias dce="docker compose exec"
 alias dceu="docker compose exec --user"
 alias dru="docker run -ti --rm ubuntu /bin/bash"
 alias drc="docker run -ti --rm laravelsail/php82-composer /bin/bash"
+alias ws="docker compose exec --user=laradock workspace bash"
 
 
 # Vagrant
+alias v="vagrant"
+
 # K8S
+alias k="kubectl"
+
 # PHP
