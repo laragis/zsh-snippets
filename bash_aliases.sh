@@ -25,6 +25,7 @@ alias ll="exa -l"
 
 # Docker
 alias dc="docker compose"
+alias dcv="docker compose version"
 alias dcu="docker compose up"
 alias dcud="docker compose up -d"
 alias dcd="docker compose down"
