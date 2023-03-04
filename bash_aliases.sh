@@ -16,7 +16,6 @@ alias c="clear"
 alias cla="clear && ls -la"
 alias cll="clear && ls -l"
 alias cls="clear && ls"
-alias code="cd /var/www"
 
 alias ea="vi ~/bash_aliases.sh"
 alias bat="batcat"
