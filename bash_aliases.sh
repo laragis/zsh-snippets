@@ -32,7 +32,7 @@ alias lrs="cd ~/VNTT/SERVER/laraserver"
 alias lrd="cd ~/VNTT/DOC/laradocs"
 
 
-# Docker
+# Docker Compose
 alias dc="docker compose"
 alias dcv="docker compose version"
 alias dcu="docker compose up"
@@ -43,9 +43,12 @@ alias dcbu="docker compose build"
 alias dcbunc="docker compose build --no-cache"
 alias dce="docker compose exec"
 alias dceu="docker compose exec --user"
+
+# Docker
 alias dip="docker image prune"
 alias dspa="docker system prune -a"
 alias dvp="docker volume prune"
+alias dcp="docker volume prune"
 alias dru="docker run -ti --rm ubuntu /bin/bash"
 alias drc="docker run -ti --rm laravelsail/php82-composer /bin/bash"
 alias ws="docker compose exec --user=laradock workspace bash"
