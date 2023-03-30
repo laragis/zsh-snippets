@@ -24,6 +24,7 @@ alias ll="exa -l"
 
 # Folders
 alias test="cd ~/VNTT/TEST"
+alias fork="cd ~/VNTT/FORK"
 alias project="cd ~/VNTT/PROJECT"
 alias doc="cd ~/VNTT/DOC"
 alias server="cd ~/VNTT/SERVER"
@@ -31,6 +32,8 @@ alias server="cd ~/VNTT/SERVER"
 alias lrs="cd ~/VNTT/SERVER/laraserver"
 alias lrd="cd ~/VNTT/DOC/laradocs"
 
+# Make
+alias m="make"
 
 # Docker Compose
 alias dc="docker compose"
