@@ -8,7 +8,7 @@ alias .....="cd ../../../.."
 alias ~="cd ~" # `cd` is probably faster to type though
 alias -- -="cd -"
 alias home="cd ~"
-alias explorer="explorer.exe ."
+alias start="explorer.exe"
 
 alias h="history"
 alias j="jobs"
