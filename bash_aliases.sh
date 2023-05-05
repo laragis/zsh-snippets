@@ -23,14 +23,17 @@ alias bat="batcat"
 alias ll="exa -l"
 
 # Folders
-alias test="cd ~/VNTT/TEST"
-alias fork="cd ~/VNTT/FORK"
-alias project="cd ~/VNTT/PROJECT"
-alias doc="cd ~/VNTT/DOC"
-alias server="cd ~/VNTT/SERVER"
+alias project="cd ~/WORKSPACE/PROJECT"
+alias internal="cd ~/WORKSPACE/PROJECT/INTERNAL"
+alias external="cd ~/WORKSPACE/PROJECT/EXTERNAL"
+alias outsource="cd ~/WORKSPACE/PROJECT/OUTSOURCE"
+alias doc="cd ~/WORKSPACE/DOC"
+alias server="cd ~/WORKSPACE/SERVER"
+alias test="cd ~/WORKSPACE/TEST"
+alias fork="cd ~/WORKSPACE/FORK"
 
-alias lrs="cd ~/VNTT/SERVER/laraserver"
-alias lrd="cd ~/VNTT/DOC/laradocs"
+alias lserver="cd ~/WORKSPACE/SERVER/laraserver"
+alias ldocs="cd ~/WORKSPACE/DOC/laradocs"
 
 # Make
 alias m="make"
