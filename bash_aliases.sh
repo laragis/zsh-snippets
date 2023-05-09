@@ -76,4 +76,4 @@ alias sail="[ -f sail ] && sh sail || sh vendor/bin/sail"
 alias dj="[ -f dj ] && bash dj || bash ./django"
 
 # Other
-alias lg="lazygit"
+alias lg="lazygit1"
