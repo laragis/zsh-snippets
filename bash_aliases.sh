@@ -77,3 +77,8 @@ alias dj="[ -f dj ] && bash dj || bash ./django"
 
 # Other
 alias lg="lazygit"
+
+
+
+
+
