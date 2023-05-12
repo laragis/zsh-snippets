@@ -22,6 +22,7 @@ alias vi="nvim"
 alias ea="vi ~/bash_aliases.sh"
 alias bat="batcat"
 alias ll="exa -l"
+alias apt="sudo apt"
 
 # Folders
 alias project="cd ~/WORKSPACE/PROJECT"
