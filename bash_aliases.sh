@@ -18,6 +18,7 @@ alias cla="clear && ls -la"
 alias cll="clear && ls -l"
 alias cls="clear && ls"
 
+alias vi="nvim"
 alias ea="vi ~/bash_aliases.sh"
 alias bat="batcat"
 alias ll="exa -l"
