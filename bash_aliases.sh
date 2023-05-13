@@ -20,9 +20,15 @@ alias cls="clear && ls"
 
 alias vi="nvim"
 alias ea="vi ~/bash_aliases.sh"
-alias bat="batcat"
-alias ll="exa -l"
+alias ls="exa -alh"
+alias ll="exa -alh"
 alias apt="sudo apt"
+
+if command -v bat > /dev/null; then
+  alias cat="bat"
+elif command -v batcat > dev/null; then
+  alias cat="batcat"
+fi
 
 # Folders
 alias project="cd ~/WORKSPACE/PROJECT"
