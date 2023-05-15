@@ -24,12 +24,6 @@ alias ls="exa -alh"
 alias ll="exa -alh"
 alias apt="sudo apt"
 
-if command -v bat > /dev/null; then
-  alias cat="bat"
-elif command -v batcat > dev/null; then
-  alias cat="batcat"
-fi
-
 # Folders
 alias project="cd ~/WORKSPACE/PROJECT"
 alias internal="cd ~/WORKSPACE/PROJECT/INTERNAL"
