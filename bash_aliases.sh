@@ -40,6 +40,12 @@ alias ldocs="cd ~/WORKSPACE/DOC/laradocs"
 # Make
 alias m="make"
 
+# PHP
+alias php7.4="/usr/bin/php7.4"
+alias php8.0="/usr/bin/php8.0"
+alias php8.1="/usr/bin/php8.1"
+alias php8.2="/usr/bin/php8.2"
+
 # Docker Compose
 alias dc="docker compose"
 alias dcv="docker compose version"
