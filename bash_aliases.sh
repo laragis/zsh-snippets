@@ -76,6 +76,12 @@ alias v="vagrant"
 
 # K8S
 alias k="kubectl"
+alias kgn="kubectl get nodes -o wide"
+alias kdn="kubectl describe nodes"
+alias ka="kubectl apply"
+alias kdp="kubectl describe pods"
+alias kep="kubectl exec -it pods"
+alias kdp="kubectl delete pods"
 
 # PHP
 alias sail="[ -f sail ] && sh sail || sh vendor/bin/sail"
