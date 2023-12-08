@@ -80,7 +80,7 @@ alias kgn="kubectl get nodes -o wide"
 alias kdn="kubectl describe nodes"
 alias ka="kubectl apply"
 alias kgp="kubectl get pods"
-alias kdp="kubectl describe pods"
+alias kdsp="kubectl describe pods"
 alias kep="kubectl exec -it pods"
 alias kdp="kubectl delete pods"
 
